@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo {
+  width: 150px;
+}
+
+.blog-card {
+  width: 22.2rem;
+  height: 224px;
+}
+
+.blog-text {
+  margin-top: -200px;
+}
+
+.search-section {
+  background-color: #dc3545;
+}
+.search-section .search-response {
+  width: 92.5%;
+}
+
+/* Carousel Start */
+.main-body {
+  margin: 100px 0;
+  padding: 30px;
+}
+
+.contain {
+  margin: 0 auto;
+  max-width: 1000px;
+  width: 100%;
+}
+
+.item {
+  margin: 0 auto;
+  align-items: center;
+  color: darkblue;
+  display: flex;
+  height: 200px;
+  width: 150px;
+  justify-content: center;
+}
+
+/* Carousel End */
+.all-stores-section .custom-btn {
+  border: none;
+  background-color: transparent;
+  padding: 10px;
+}
+.all-stores-section .custom-btn:hover {
+  color: white;
+  background-color: #dc3545;
+}
+
+.selected-store-section .nav-btn {
+  color: #ff012f;
+}
+.selected-store-section .nav-btn:hover {
+  color: #c30326;
+}
+
+.footer-section {
+  background-color: black;
+  color: gray;
+}
+.footer-section p:hover {
+  transition: color 0.2s ease-in-out;
+  color: #b0b0b0;
+}
+
+@media (max-width: 1024px) {
+  .blog-card {
+    width: 100%;
+  }
+  .blog-text {
+    margin-top: 0;
+  }
+  .search-section .search-response {
+    width: 89.5%;
+  }
+}
+@media (max-width: 567px) {
+  .search-section .search-response {
+    width: 100%;
+  }
+}/*# sourceMappingURL=index.css.map */
